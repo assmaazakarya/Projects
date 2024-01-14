@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        :root {
+            font-size: 20px;
+            /* border: 1px red solid; only one  <HTML> */
+            --primary-color:#1F4D36;
+
+        }
+body{
+    font-size: 30px;
+}
+        div {
+            width: 80%;
+            height: 50vh;
+            margin: 1em auto;
+            border: .1em red solid;
+            /* margin:0; ==> for all edges */
+            /* margin:0 1; ==> for top&bottom  left&right edges */
+            /* margin:0 1 2 3; ==> for top right bottom left edges */
+            /* height: 100%; */
+            background-color: var(--primary-color);
+        }
+        @media (max-width:600px) {
+            
+            :root{
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga, doloremque sint vitae quas id ducimus
+        totam repellendus ipsa possimus inventore temporibus dignissimos nisi velit! Vitae impedit nostrum pariatur
+        minima!
+    </div>
+</body>
+
+</html>

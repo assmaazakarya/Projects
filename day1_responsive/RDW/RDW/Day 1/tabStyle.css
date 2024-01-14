@@ -1,0 +1,14 @@
+/* @media (max-width:900px) { */
+    .card{
+        grid-template-columns: 1fr;
+    }
+    /* .card img{
+        grid-column: 1;
+        grid-row: 2/3;
+    }
+    .card div{
+        grid-column: 1;
+        grid-row: 1/2;
+    } */
+    
+/* } */

@@ -1,0 +1,10 @@
+@media (max-width:600px) {
+    .container{
+    grid-template-columns: 1fr;
+
+    }
+    .card{
+    grid-template-columns: 1fr 1fr;
+
+    }
+}

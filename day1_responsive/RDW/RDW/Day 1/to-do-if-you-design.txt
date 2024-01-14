@@ -1,0 +1,4 @@
+1- adjecct ViewPort
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+2- Css3 Layout (Flex, Grid)
+3- follow Design

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* body{
+            background-color: azure;
+        } */
+        /* For Large Devices (Desktop, labtop) */
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .card{
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding: 50px;
+        }
+        .card img{
+            width: 50%;
+            height: 200px;
+        }
+        .card div{
+            width: 50%;
+        }
+
+        /* For Medium Devices (tablets) */
+        /* is Width <= 900px */
+        @media (max-width:900px) {
+            .card{
+                flex-direction: column;
+            padding: 30px;
+
+            }
+            .card img,.card div{
+                width: 100%;
+            }
+            
+        }
+        /* For small Devices (Mobiles) */
+        /* is Width <= 600px */
+        @media (max-width:600px) {
+            .card{
+                flex-direction: row;
+            padding: 10px;
+
+            }
+            .card{
+            width: 100%;
+            }
+            .card img,.card div{
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./assets/pexels.jpeg">
+            <div>
+                <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nemo laborum ipsum perferendis itaque eius illo, ipsam iste quam exercitationem odio amet, labore quaerat eum rerum blanditiis expedita ducimus unde!</p>
+                <button>See More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/pexels.jpeg">
+            <div>
+                <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nemo laborum ipsum perferendis itaque eius illo, ipsam iste quam exercitationem odio amet, labore quaerat eum rerum blanditiis expedita ducimus unde!</p>
+                <button>See More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/pexels.jpeg">
+            <div>
+                <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nemo laborum ipsum perferendis itaque eius illo, ipsam iste quam exercitationem odio amet, labore quaerat eum rerum blanditiis expedita ducimus unde!</p>
+                <button>See More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/pexels.jpeg">
+            <div>
+                <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nemo laborum ipsum perferendis itaque eius illo, ipsam iste quam exercitationem odio amet, labore quaerat eum rerum blanditiis expedita ducimus unde!</p>
+                <button>See More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/pexels.jpeg">
+            <div>
+                <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nemo laborum ipsum perferendis itaque eius illo, ipsam iste quam exercitationem odio amet, labore quaerat eum rerum blanditiis expedita ducimus unde!</p>
+                <button>See More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/pexels.jpeg">
+            <div>
+                <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nemo laborum ipsum perferendis itaque eius illo, ipsam iste quam exercitationem odio amet, labore quaerat eum rerum blanditiis expedita ducimus unde!</p>
+                <button>See More</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
